@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragment_main">
+
+    <action
+        android:id="@+id/action_showCurrencyListFragment"
+        app:destination="@id/currencyListFragment"
+        app:popUpTo="@id/currencyListFragment"
+        app:popUpToInclusive="true" />
+
+    <fragment
+        android:id="@+id/fragment_main"
+        android:name="com.crypto.exercise.fragments.MainFragment" />
+
+    <dialog
+        android:id="@+id/currencyListFragment"
+        android:name="com.crypto.exercise.fragments.CurrencyListFragment">
+        <argument
+            android:name="currencyList"
+            app:argType="com.crypto.exercise.data.CurrencyInfo[]" />
+    </dialog>
+
+</navigation>
