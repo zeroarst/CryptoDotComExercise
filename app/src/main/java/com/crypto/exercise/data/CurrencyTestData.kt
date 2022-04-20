@@ -1,7 +1,5 @@
 package com.crypto.exercise.data
 
-import com.crypto.exercise.data.CurrencyInfo
-
 object CurrencyTestData {
     val currencies = listOf(
         CurrencyInfo(
