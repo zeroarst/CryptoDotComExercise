@@ -1,4 +1,4 @@
-package com.crypto.exercise.untils
+package com.crypto.exercise.utils
 
 /**
  * Constants used throughout the app.

@@ -1,4 +1,4 @@
-package com.crypto.exercise.activities.delegations
+package com.crypto.exercise.utils
 
 import android.os.Bundle
 import android.os.Parcelable

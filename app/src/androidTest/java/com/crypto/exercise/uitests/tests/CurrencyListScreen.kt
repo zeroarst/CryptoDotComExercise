@@ -13,9 +13,9 @@ class CurrencyListNode(parentNode: BaseNode<*>, semanticsProvider: SemanticsNode
         parentNode = parentNode,
         nodeMatcher = NodeMatcher(hasTestTag("currencyList"))
     ) {
-    val currencyListItemRow = KNode(
+    val currencyListItem = KNode(
         parentNode = this,
         semanticsProvider = semanticsProvider,
-        nodeMatcher = NodeMatcher(hasTestTag("currencyListItemRow") and hasClickAction())
+        nodeMatcher = NodeMatcher(hasTestTag("currencyListItem") and hasClickAction())
     )
 }

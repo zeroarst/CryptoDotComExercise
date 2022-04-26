@@ -8,10 +8,10 @@ import androidx.sqlite.db.SupportSQLiteDatabase
 import androidx.work.OneTimeWorkRequestBuilder
 import androidx.work.WorkManager
 import androidx.work.workDataOf
-import com.crypto.exercise.untils.CURRENCY_LIST_DATA_FILENAME
-import com.crypto.exercise.untils.DATABASE_NAME
-import com.crypto.exercise.workes.SeedDatabaseWorker
-import com.crypto.exercise.workes.SeedDatabaseWorker.Companion.KEY_FILENAME
+import com.crypto.exercise.utils.CURRENCY_LIST_DATA_FILENAME
+import com.crypto.exercise.utils.DATABASE_NAME
+import com.crypto.exercise.data.workes.SeedDatabaseWorker
+import com.crypto.exercise.data.workes.SeedDatabaseWorker.Companion.KEY_FILENAME
 
 @Database(entities = [CurrencyInfo::class], version = 1)
 abstract class AppDatabase : RoomDatabase() {

@@ -1,4 +1,4 @@
-package com.crypto.exercise.activities
+package com.crypto.exercise.ui.demo
 
 import android.os.Bundle
 import android.os.SystemClock
@@ -8,11 +8,11 @@ import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
 import com.crypto.exercise.R
-import com.crypto.exercise.activities.delegations.viewBinding
 import com.crypto.exercise.databinding.ActivityDemoBinding
-import com.crypto.exercise.fragments.CurrencyListFragment
-import com.crypto.exercise.viewmodels.CurrencyListViewModel
-import com.crypto.exercise.viewmodels.CurrencyListViewModelFactory
+import com.crypto.exercise.ui.currencylist.CurrencyListFragment
+import com.crypto.exercise.ui.currencylist.CurrencyListViewModel
+import com.crypto.exercise.ui.currencylist.CurrencyListViewModelFactory
+import com.crypto.exercise.utils.viewBinding
 
 class DemoActivity : AppCompatActivity() {
 

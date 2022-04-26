@@ -1,4 +1,4 @@
-package com.crypto.exercise.viewmodels
+package com.crypto.exercise.ui.currencylist
 
 import android.app.Application
 import androidx.lifecycle.*

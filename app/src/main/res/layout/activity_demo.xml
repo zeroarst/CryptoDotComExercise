@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.DemoActivity">
+    tools:context=".ui.demo.DemoActivity">
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/bt_load_currency_list"
@@ -36,9 +36,9 @@
 
     <ProgressBar
         android:id="@+id/cpi"
-        android:visibility="gone"
         android:layout_width="48dp"
         android:layout_height="48dp"
+        android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="@+id/fcv_currency_list"
         app:layout_constraintEnd_toEndOf="@+id/fcv_currency_list"
         app:layout_constraintStart_toStartOf="@+id/fcv_currency_list"

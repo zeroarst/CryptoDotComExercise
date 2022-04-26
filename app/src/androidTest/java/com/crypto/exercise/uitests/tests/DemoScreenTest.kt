@@ -15,7 +15,7 @@ class DemoScreenTest : BaseTest() {
                 click()
             }
             currencyList {
-                currencyListItemRow {
+                currencyListItem {
                     assertIsDisplayed()
                 }
             }

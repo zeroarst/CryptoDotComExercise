@@ -1,4 +1,4 @@
-package com.crypto.exercise.untils
+package com.crypto.exercise.utils
 
 import android.os.Bundle
 import androidx.core.os.bundleOf
@@ -6,7 +6,6 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.setFragmentResult
 import androidx.lifecycle.LifecycleOwner
-import com.crypto.exercise.activities.delegations.put
 
 /**
  * D: Result data type.

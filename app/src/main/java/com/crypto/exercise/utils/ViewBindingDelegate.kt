@@ -1,4 +1,4 @@
-package com.crypto.exercise.activities.delegations
+package com.crypto.exercise.utils
 
 import android.view.LayoutInflater
 import android.view.View

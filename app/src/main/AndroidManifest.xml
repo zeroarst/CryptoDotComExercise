@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CryptoDotComExercise">
         <activity
-            android:name=".activities.DemoActivity"
+            android:name=".ui.demo.DemoActivity"
             android:exported="true"
             android:theme="@style/Theme.CryptoDotComExercise">
             <intent-filter>

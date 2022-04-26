@@ -3,7 +3,7 @@ package com.crypto.exercise.uitests.tests
 import androidx.compose.ui.test.junit4.createAndroidComposeRule
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.LargeTest
-import com.crypto.exercise.activities.DemoActivity
+import com.crypto.exercise.ui.demo.DemoActivity
 import org.junit.Before
 import org.junit.Rule
 import org.junit.runner.RunWith

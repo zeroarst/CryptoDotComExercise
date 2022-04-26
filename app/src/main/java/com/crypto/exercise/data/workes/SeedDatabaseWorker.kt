@@ -1,4 +1,4 @@
-package com.crypto.exercise.workes
+package com.crypto.exercise.data.workes
 
 import android.content.Context
 import android.util.Log
